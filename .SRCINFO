@@ -1,0 +1,17 @@
+pkgbase = kanata-notifier
+	pkgdesc = TCP notification bridge for Kanata
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/danielaca18/kanata-notifier
+	arch = any
+	license = MIT
+	depends = jq
+	depends = net-tools
+	depends = libnotify
+	depends = kanata
+	source = kanata-notifier.sh
+	source = kanata-notifier.service
+	sha256sums = 93b448eee06e38c3376532cb08f55e41a377e6dc7b4792a9c2bb43e6633f488c
+	sha256sums = 67bb56535a28699d626f55b4dddf42e3aff01287a94245c864271bc1edf93a77
+
+pkgname = kanata-notifier

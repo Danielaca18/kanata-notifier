@@ -1,0 +1,15 @@
+[Unit]
+Description=Kanata Mako Notifier
+After=kanata.service
+
+[Service]
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus
+Environment=DISPLAY=:0
+Environment=KANATA_PORT=5829
+# Point directly to your new script
+ExecStart=%h/.bin/kanata-notifier
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
