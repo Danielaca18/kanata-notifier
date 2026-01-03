@@ -25,6 +25,12 @@ TCP-based notification bridge for [kanata](https://github.com/jtroo/kanata).
   sudo make install
 ```
 
+### AUR Support
+
+I haven't officially published this to the AUR yet because I did not want to risk polluting the AUR if this package will only be used by myself.
+
+**If you want to see this on the AUR for easier updates, please give this repo a ⭐ Star.** If the project hits 10-15 stars (or someone opens an issue requesting it), I'll push it to the AUR.
+
 ## Usage
 
 1. Start kanata with TCP enabled:
