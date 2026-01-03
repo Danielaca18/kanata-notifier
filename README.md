@@ -4,7 +4,7 @@ TCP-based notification bridge for [kanata](https://github.com/jtroo/kanata).
 
 ## Dependencies
 
-- `jq``
+- `jq`
 - `net-tools`
 - `libnotify`
 - `kanata`
